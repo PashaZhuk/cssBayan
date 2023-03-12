@@ -48,7 +48,7 @@ input {
     height: 1.5rem;
     text-align: center;
     background-size: 100% 100%;
-    background-image: url(../icon/icons8-plus-math-100.png);
+    background-image: url(/cssBayan/cssBayan/icon/icons8-plus-math-100.png);
     opacity: 0;
     transition: all 0.3s;
 }
@@ -82,7 +82,7 @@ input:checked + .mem-box-label::after {
         height: 1.5rem;
         text-align: center;
         background-size: 100% 100%;
-        background-image: url(../icon/icons8-plus-math-100.png);
+        background-image: url(/cssBayan/cssBayan/icon/icons8-plus-math-100.png);
         opacity: 1;
         transition: all 0.4s;
     }    
@@ -91,23 +91,23 @@ input:checked + .mem-box-label::after {
     }
     input:checked ~ .picture-1 {
         min-height: 30vh;
-        background-image: url(../img/Error_on_line.jpg);
+        background-image: url(/cssBayan/cssBayan/img/Error_on_line.jpg);
     }
     input:checked ~ .picture-2 {
         min-height: 30vh;
-        background-image: url(../img/let_me_chek_my_code.jpg)
+        background-image: url(/cssBayan/cssBayan/img/let_me_chek_my_code.jpg)
     }
     input:checked ~ .picture-3 {
         min-height: 30vh;
-        background-image: url(../img/english.jpg);
+        background-image: url(/cssBayan/cssBayan/img/english.jpg);
     }
     input:checked ~ .picture-4 {
         min-height: 30vh;
-        background-image: url(../img/my_code_is_working.jpg);
+        background-image: url(/cssBayan/cssBayan/img/my_code_is_working.jpg);
     }
     input:checked ~ .picture-5 {
         min-height: 30vh;
-        background-image: url(../img/prettycode.jpg);
+        background-image: url(/cssBayan/cssBayan/img/prettycode.jpg);
     }
     
 }
@@ -127,7 +127,7 @@ input:checked + .mem-box-label::after {
     .mem-box-label:hover ~ .picture-1 {
         width: 35%;
         height: 30vh;
-        background-image: url(../img/Error_on_line.jpg);
+        background-image: url(/cssBayan/cssBayan/img/Error_on_line.jpg);
         transition: all 0.5s ease-in-out;
 
         
@@ -135,13 +135,13 @@ input:checked + .mem-box-label::after {
     .mem-box-label:hover ~ .picture-2 {
         width: 35%;
         height: 30vh;
-        background-image: url(../img/let_me_chek_my_code.jpg);
+        background-image: url(/cssBayan/cssBayan/img/let_me_chek_my_code.jpg);
         transition: all 0.5s ease-in-out;
     }
     .mem-box-label:hover ~ .picture-3 {
         width: 35%;
         height: 30vh;
-        background-image: url(../img/english.jpg);
+        background-image: url(/cssBayan/cssBayan/img/english.jpg);
         transition: all 0.5s ease-in-out;
     }
 
@@ -150,14 +150,14 @@ input:checked + .mem-box-label::after {
         width:30%;
         height: 30vh;
         background-size: 100% 100%;
-        background-image: url(../img/my_code_is_working.jpg);
+        background-image: url(/cssBayan/cssBayan/img/my_code_is_working.jpg);
         transition: all 0.8s
     }
 
     .mem-box-label:hover ~ .picture-5 {
         width: 35%;
         height: 30vh;
-        background-image: url(../img/prettycode.jpg);
+        background-image: url(/cssBayan/cssBayan/img/prettycode.jpg);
         transition: all 0.5s ease-in-out;
     }
 
