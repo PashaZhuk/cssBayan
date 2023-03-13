@@ -124,7 +124,7 @@ input:checked + .mem-box-label::after {
         transform: rotate(45deg);
     }
 
-    .mem-box-label:hover ~ .picture-1 {
+    .picture-1 {
         width: 35%;
         height: 30vh;
         background-image: url(/cssBayan/cssBayan/img/Error_on_line.jpg);
@@ -145,7 +145,7 @@ input:checked + .mem-box-label::after {
         transition: all 0.5s ease-in-out;
     }
 
-    .picture-4{
+    .mem-box-label:hover ~ .picture-4{
         margin: 0.5rem auto;
         width:30%;
         height: 30vh;
